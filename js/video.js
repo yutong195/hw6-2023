@@ -68,7 +68,7 @@ window.addEventListener("load", function() {
 	})
 
 	this.document.querySelector("#vintage").addEventListener("click", function(){
-		video.classList.toggle("oldSchool");
+		video.classList.add("oldSchool");
 	})
 
 	this.document.querySelector("#orig").addEventListener("click", function(){
